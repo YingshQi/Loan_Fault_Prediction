@@ -1,0 +1,89 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+*.venv/
+*.env/
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore logs and temp files
+logs/
+*.log
+*.out
+*.err
+*.pid
+*.swp
+*.swo
+*.bak
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Ignore package management files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+.secret
+
+# Ignore data files (raw, intermediate, processed)
+data/*.csv
+data/*.xlsx
+data/*.npy
+
+# Ignore trained models
+models/
+*.pth
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore machine learning artifacts
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pb
+*.onnx
+checkpoints/
+runs/
+wandb/
+
+# Ignore plots and figures
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.bmp
+
+# Ignore PyTorch and training artifacts
+*.pt
+*.ckpt
+data/X_train.npy
