@@ -102,7 +102,7 @@ def train_model():
         else:
             counter += 1
             if counter >= patience:
-                print(f"🛑 Early stopping triggered at epoch {epoch+1}")
+                print(f"Early stopping triggered at epoch {epoch+1}")
                 break  # Stop training
 
 # Train the model

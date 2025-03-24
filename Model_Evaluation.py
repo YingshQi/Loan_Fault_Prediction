@@ -30,7 +30,7 @@ roc_auc = roc_auc_score(y_test, y_pred_probs)
 conf_matrix = confusion_matrix(y_test, y_pred)
 
 # Print performance metrics
-print(f"✅ Model Evaluation Completed!")
+print(f"Model Evaluation Completed!")
 print(f"Accuracy: {accuracy:.4f}")
 print(f"Precision: {precision:.4f}")
 print(f"Recall: {recall:.4f}")
